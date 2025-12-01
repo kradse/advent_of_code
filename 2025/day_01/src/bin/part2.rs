@@ -7,7 +7,7 @@ fn main() {
     let mut safe_dial = 50;
     let mut zero_counter = 0;
 
-        for line in lines {
+    for line in lines {
         let mut chars = line.chars();
         let direction = chars.next().unwrap();
         let value: i32 = chars.as_str().parse().unwrap();
